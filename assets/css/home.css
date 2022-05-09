@@ -280,6 +280,7 @@ footer {
     margin: 10px;
     text-align: center;
     justify-content: space-evenly;
+    font-size: 25px;
   }
 
   .involvement {
@@ -319,9 +320,23 @@ footer {
   }
 
   .donations {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 20%;
     right: 0;
+    border: solid white;
+    background-color: rgb(244, 201, 242);
+    height: 200px;
+    width: 350px;
+    text-align: center;
+  }
+  .message {
+    font-size: 28px;
+  }
+  .donate2 {
+    font-size: 35px;
+    padding: 10px;
+    background-color:aliceblue;
     border: solid black;
+    display: inline;
   }
 }
